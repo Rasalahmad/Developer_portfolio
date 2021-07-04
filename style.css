@@ -16,7 +16,7 @@ h1 {
 
 .half-div {
     width: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 50px;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 .half-div img {
     width: 80%;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .button {
@@ -40,7 +40,7 @@ h1 {
 .first-section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .second-section {
@@ -48,4 +48,38 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 100px;
+}
+
+.exp {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.exp h3 {
+    color: orange;
+}
+
+#one {
+    box-shadow: 10px 10px 20px gray;
+    padding: 10px;
+    margin: 20px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#two {
+    box-shadow: 10px 10px 20px gray;
+    padding: 10px;
+    margin: 20px;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
