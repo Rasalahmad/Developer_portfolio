@@ -35,14 +35,14 @@ h1 {
 
 .button {
     padding: 10px 40px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(to right, rgb(165, 35, 165), rgb(39, 99, 179));
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
 .button:hover {
-    box-shadow: 5px 5px 10px gold;
+    background-image: linear-gradient(to right, rgba(64, 11, 255, 0.425), rgb(201, 28, 28));
 }
 
 .first-section {
