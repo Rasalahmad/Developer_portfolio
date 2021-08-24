@@ -16,29 +16,37 @@ h1 {
 
 .first-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .half-div {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 50px;
+}
+
+#second-content {
+    padding: 20px;
 }
 
 .half-div p {
     text-align: justify;
+    justify-content: center;
 }
 
 .half-div img {
-    width: 80%;
+    width: 90%;
     margin-top: 40px;
 }
 
 .button {
-    padding: 10px 40px;
+    padding: 10px 20px;
     background-image: linear-gradient(to right, rgb(165, 35, 165), rgb(39, 99, 179));
     text-decoration: none;
     color: white;
     font-size: 20px;
+    border-radius: 8px;
 }
 
 .button:hover {
